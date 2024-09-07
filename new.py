@@ -8,7 +8,7 @@ api_key = os.getenv("API_KEY")
 
 # Set custom page configuration with a favicon and layout settings
 st.set_page_config(
-    page_title="Resume Summarizer",
+    page_title="AI Resume Summarizer",
     page_icon="favi.png",  # Replace with your favicon path
     layout="wide",
     initial_sidebar_state="expanded",
@@ -18,7 +18,7 @@ st.set_page_config(
 st.markdown("""
     <style>
         .main {
-            background-image: url('https://i.pinimg.com/564x/f7/18/8d/f7188d253ebe032b9eb678e43e78c2bf.jpg');  /* Replace with your light-colored background image URL */
+            background-image: url('https://i.pinimg.com/564x/2d/67/f9/2d67f9834649b584682ab58606f5a27e.jpg');  /* Replace with your light-colored background image URL */
             background-size: cover;
             color: #333;
             padding: 1.5rem;
@@ -69,6 +69,33 @@ st.markdown("""
             color: #333;  /* Darker text color */
             font-weight: bold;  /* Make the text bold for better visibility */
         }
+        .file-uploader-text {
+            color: black;
+        }
+        .st-emotion-cache-1qg05tj  {
+            color: black    
+        }
+        .st-emotion-cache-m78myu {
+            color: black
+        }
+        #overview {
+            color: black
+        }
+        #professional-experience {
+            color: black
+        }
+        #education-summary {
+            color: black    
+        }
+        #certifications-and-courses {
+            color: black    
+        }
+        #key-skills {
+            color: black
+        }
+        h1,h2{
+            color:#000
+            }
     </style>
     """, unsafe_allow_html=True)
 
@@ -133,7 +160,7 @@ else:
             return "No summary available."
 
     # Streamlit UI setup
-    st.markdown("<h1 style='color: black;'>📄 Resume Analyzer</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='color: black;'>📄 AI Resume Analyzer</h1>", unsafe_allow_html=True)
     st.write("""
     <p style="color:#000;">Enhance your professional profile by extracting key insights from your resume. Upload your resume in PDF format and let our AI model summarize it into 
     easy-to-read sections. From key skills to professional experience, get everything at a glance!</p>
@@ -143,7 +170,7 @@ else:
     st.sidebar.image("logo.jpeg", use_column_width=True)  # Replace with your logo path
     st.sidebar.title("Guide")
     st.sidebar.write("""
-    **Welcome to the Resume Analyzer!** Here's how to use the application:
+    **Welcome to the AI Resume Analyzer!** Here's how to use the application:
 
     1. **Upload Your Resume:** Click on the "Upload your resume (PDF format)..." button to upload your resume. Ensure your resume is in PDF format.
 
@@ -198,7 +225,6 @@ else:
         # Additional tips
         st.markdown("""
             <div class="footer">
-                <p>Created by Sayambar Roy Chowdhury | <a href="https://www.linkedin.com/in/sayambar-roy-chowdhury-731b0a282/" target="_blank">LinkedIn </a>| 
-                <a href="https://github.com/Sayambar2004" target="_blank">GitHub</a></p>
+                <p>Created by Tech Janta Party</p>
             </div>
             """, unsafe_allow_html=True)
