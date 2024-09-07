@@ -187,7 +187,7 @@ else:
     **About the AI Model:**
     Our AI model leverages advanced generative capabilities to analyze your resume and provide detailed summaries for various sections. It uses natural language processing to understand and extract key information, helping you present a polished and professional profile.
 
-    **Need Help?** If you encounter any issues or have questions, please contact us at [support@example.com](mailto:support@example.com).
+    **Need Help?** If you encounter any issues or have questions, please contact us at [techjantaparty@gmail.com](mailto:techjantaparty@gmail.com).
     """)
 
     # File upload widget
