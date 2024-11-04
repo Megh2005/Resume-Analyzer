@@ -64,7 +64,7 @@ st.markdown("""
         }
         /* Change header text color to black */
         .css-1ujw7ow {
-            color: #0f0f0f;  /* Black text color */
+            color: #fff;  /* Black text color */
         }
         /* Change text color in st.info */
         .stAlert p {
@@ -214,10 +214,5 @@ else:
         """)
 
         # Footer with links to the creator's profiles
-        st.markdown("""
-        <div class="footer">
-            <p>Created by Sayambar Roy Chowdhury | <a href="https://www.linkedin.com/in/sayambar-roy-chowdhury-731b0a282/" target="_blank">LinkedIn</a> | <a href="https://github.com/Sayambar2004" target="_blank">GitHub</a></p>
-        </div>
-        """, unsafe_allow_html=True)
     else:
         st.info("Please upload a PDF resume file to summarize.")
