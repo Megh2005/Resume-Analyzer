@@ -4,7 +4,7 @@ import pdfplumber
 import os
 
 # Configure the Gemini API key using environment variable
-api_key = os.getenv("API_KEY")
+api_key = "AIzaSyCpMOrythR3tdbgu5zBHdzQcOzxZNS5-hE"
 
 # Set custom page configuration with a favicon and layout settings
 st.set_page_config(
