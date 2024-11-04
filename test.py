@@ -68,7 +68,7 @@ st.markdown("""
         }
         /* Change text color in st.info */
         .stAlert p {
-            color: #333;  /* Darker text color */
+            color: #fff;  /* Darker text color */
             font-weight: bold;  /* Make the text bold for better visibility */
         }
     </style>
