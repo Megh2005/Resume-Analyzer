@@ -20,7 +20,7 @@ st.markdown("""
         .main {
             background-image: url('https://i.pinimg.com/564x/79/49/e4/7949e4a1679a715dde1150bf0c2f6987.jpg');  /* Replace with your light-colored background image URL */
             background-size: cover;
-            color: #333;
+            color: #fff;
             padding: 1.5rem;
         }
         .st-expander {
